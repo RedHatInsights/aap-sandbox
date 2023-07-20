@@ -2,7 +2,7 @@
 
 = {HubNameMain} variables
 
-[cols="50%,50%",options="header"]
+[options="header"]
 |====
 | *Variable* | *Description* 
 | *`automationhub_admin_password`* | Required
