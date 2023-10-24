@@ -1,0 +1,25 @@
+NOTE: This is just a test file. 
+
+This commit is just practising _Asciidoc syntax_
+
+
+.Unordered lists
+* *first bullet*
+** `Nested bullet` 
+*** _Third level_
+* Second bullet
+* `Third bullet`
+** *Another nested bullet*
+*** _Third level nest_
+
+.A numbered list
+1. `One`
+2. *Two*
+3. _Three_
+
+.New title
+[<u>This is a sentence.</u>]
+
+Red +
+Hat
+
