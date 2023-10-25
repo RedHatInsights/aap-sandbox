@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Test 1
-Test 2
-Test 3
-=======
+
 NOTE: This is just a test file. 
 
 This commit is *still* practising _AsciiDoc syntax_
@@ -10,7 +6,3 @@ This commit is *still* practising _AsciiDoc syntax_
 .New title
 pass:[<u>This is a sentence.</u>] +
 _This is also a sentence but a little different_
-
-
-
->>>>>>> b2415c5 (Greg's second test)
