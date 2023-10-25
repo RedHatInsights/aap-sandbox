@@ -11,5 +11,11 @@ NOTE: This is just a test file.
 
 .Numbered list
 1. `One`
+.. step one of step one
+.. two two of step one
 2. *Two*
+.. step one of step two
+.. step two of step two
 3. _Three_
+.. step one of step three
+.. you know the drill
