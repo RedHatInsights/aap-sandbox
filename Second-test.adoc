@@ -12,7 +12,7 @@ NOTE: This is just a test file.
 .Numbered list
 1. `One`
 .. step one of step one
-.. two two of step one
+.. Step two of step one
 2. *Two*
 .. step one of step two
 .. step two of step two
