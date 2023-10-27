@@ -2,4 +2,6 @@ Your first name: Greg
 
 Your favorite color: Green
 
-Your favorite ice-cream flavor: Chocolate
+Your favorite ice-cream flavor: Vanilla
+
+Your favorite animal: Cat
