@@ -1,0 +1,82 @@
+////
+Retains the context of the parent assembly if this assembly is nested within another assembly.
+For more information about nesting assemblies, see: https://redhat-documentation.github.io/modular-docs/#nesting-assemblies
+See also the complementary step on the last line of this file.
+////
+
+ifdef::context[:parent-context: {context}]
+
+////
+ Base the file name and the ID on the assembly title. For example:
+* file name: assembly-my-user-story.adoc
+* ID: [id="assembly-my-user-story_{context}"]
+* Title: = My user story
+////
+
+////
+Indicate the content type in one of the following
+ways:
+Add the prefix assembly- or assembly_ to the file name.
+Add the following attribute before the module ID:
+:_mod-docs-content-type: ASSEMBLY
+////
+
+////
+The ID is an anchor that links to the module. Avoid changing it after the module has been published to ensure existing links are not broken. Include {context} in the ID so the assembly can be reused.
+////
+
+[id="Assembly_{context}"]
+= My Assembly test
+////
+Be sure to include a line break between the title and the :context: variable and the :context: variable and the assembly introduction.
+
+If the assembly covers a task, start the title with a verb in the gerund form, such as Creating or Configuring.
+////
+
+:context: assembly-keyword
+
+////
+The `context` attribute enables module reuse. Every module ID includes {context}, which ensures that the module has a unique ID so you can include it multiple times in the same guide.
+////
+
+[role="_abstract"]
+This assembly doc is just a test file I'm using to practice assembly of modular documents.
+
+== Prerequisites
+
+* Read up on modular documents best practices.
+* Create other test files to be included.
+////
+The following include statements pull in the module files that comprise the assembly. Include any combination of concept, procedure, or reference modules required to cover the user story. You can also include other assemblies.
+////
+
+include::test_file.adoc[leveloffset=+1]
+
+////
+[leveloffset=+1] ensures that when a module title is a level 1 heading (= Title), the heading will be interpreted as a level-2 heading (== Title) in the assembly. Use [leveloffset=+2] and [leveloffset=+3] to nest modules in an assembly.
+////
+
+include::Second-test.adoc[leveloffset=+1]
+// Add a blank line after each 'include::' statement.
+
+include::wednesday.adoc[leveloffset=+1]
+
+[role="_additional-resources"]
+== Next steps
+
+* Preview the doc, and confirmed it worked. 
+** If it worked be a happy chappy. 
+** If it didn't work, back to the drawing board with you. 
+
+
+// If the last module included in your assembly contains an Additional resources section as well, check the appearance of the rendered assembly. If the two Additional resources sections might be confusing for a reader, consider consolidating their content and removing one of them.
+[role="_additional-resources"]
+== Additional resources
+
+* To be completed, will practice some hyperlinking here when the time is right.  
+
+////
+Restore the context to what it was before this assembly.
+////
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]
