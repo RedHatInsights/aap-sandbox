@@ -1,6 +1,6 @@
-NOTE: This is just a test file. 
+= Chapter 2. Unordered and Numbered lists
 
-.Unordered lists
+== Unordered lists
 * *first bullet*
 ** `Nested bullet` 
 *** _Third level_
@@ -9,7 +9,7 @@ NOTE: This is just a test file.
 ** *Another nested bullet*
 *** _Third level nest_
 
-.Numbered list
+== Numbered list
 1. `One`
 .. step one of step one
 .. Step two of step one
