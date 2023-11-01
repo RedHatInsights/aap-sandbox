@@ -1,6 +1,6 @@
 [id="Second-test_{context}"]
 
-= Chapter 2. Unordered and Numbered lists
+= Chapter 2. Unordered & Numbered lists
 
 == Unordered lists
 * *first bullet*
