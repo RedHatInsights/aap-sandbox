@@ -32,7 +32,7 @@ include::wednesday.adoc[leveloffset=+1]
 [role="_additional-resources"]
 == Additional resources
 
-* To be completed, will practice some hyperlinking here when the time is right.  
+* Practice some hyperlinking here when the time is right.  
 
 ifdef::parent-context[:context: {parent-context}]
 ifndef::parent-context[:!context:]
