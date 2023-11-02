@@ -2,7 +2,7 @@
 
 = Chapter 1. My favorite stuff
 
-Your favorite color: Green
+Your favorite color: Blue
 
 Your favorite ice-cream flavor: Mint
 
