@@ -1,4 +1,5 @@
 [id="wednesday_{context}"]
 
 = Chapter 3. Three for good measure
+
 Good things come in threes so I decided to have three chapters in this assembly document. 
